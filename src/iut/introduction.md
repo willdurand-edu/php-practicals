@@ -16,8 +16,8 @@ les sujets de TPs sont écrits en anglais.
 
 
 Vous allez utiliser une **machine virtuelle** préconfigurée avec
-[Puppet](http://puppetlabs.com/). On parle également de "VM" pour désigner une
-machine virtuelle, acronyme de l'anglais **V**irtual **M**achine.
+[Puppet](http://puppetlabs.com/). On parle également de "VM" pour désigner ce
+type de machine, acronyme de l'anglais **V**irtual **M**achine.
 
 Cette machine inclut tout le necessaire pour faire fonctionner vos TPs et
 comporte les programmes suivants :
@@ -35,16 +35,18 @@ La Machine Virtuelle
 Tous les TPs se dérouleront dans une machine virtuelle _headless_, c'est-à-dire
 sans interface graphique.
 Cette machine est pilotée par [Vagrant](http://www.vagrantup.com), un programme
-en ruby qui abstrait la configuration et la manipulation de la machine.
+en Ruby qui abstrait la configuration et la manipulation de la machine.
 
 Tout se passe comme si la machine virtuelle était un serveur accessible
 uniquement en réseau, via un tunnel `ssh`.
 
 Votre machine redirige toutes les connexions entrantes sur le port `8080` vers
-le port `80` de la machine virtuelle. Pareil pour les ports `8081` et `8082` qui
-redirigent respectivement vers les ports `81` et `82` de la machine virtuelle.
+le port `80` de la machine virtuelle comme le montre la figure ci-dessous :
 
 ![schema réseau de l'installation](../images/vm-network.png)
+
+De la même manière, les ports `8081` et `8082` redirigent respectivement vers
+les ports `81` et `82` de la machine virtuelle.
 
 
 ### Installation
@@ -54,7 +56,7 @@ Vous allez installer la configuration de Vagrant dans le répertoire
 
 Dans la suite du document, nous utiliserons `DOCROOT` pour parler de ce chemin.
 
-Pour faciliter la suite, vous êtes invité à définir une variable d'environnement :
+Vous êtes invité à définir une variable d'environnement :
 
     $ export DOCROOT="/usr/local/licphp/workspace/vm-$USER"
 
@@ -62,7 +64,7 @@ Vous pouvez ajouter cette ligne à votre fichier `.bashrc`.
 
 Maintenant, récupérez la configuration de la machine virtuelle :
 
-    $ git clone git://github.com/licpro/php-vm.git --recursive $DOCROOT
+    $ git clone git://github.com/licpro/php-vm.git $DOCROOT
     $ cd $DOCROOT
 
 En listant le répertoire, vous devez avoir une sortie similaire à celle-ci :
@@ -91,8 +93,9 @@ suivante :
 
     $ vagrant up
 
-Ouvrir un navigateur, et aller à l'adresse `http://localhost:8080/` pour
-vérifier que tout fonctionne.
+Ouvrir un navigateur, et aller à l'adresse
+[http://localhost:8080/](http://localhost:8080/) pour vérifier que tout
+fonctionne correctement.
 
 ### Démarrage
 
@@ -108,7 +111,7 @@ VM.
 
     $ vagrant halt
 
-_Note :_ Merci de bien éteindre la machine virtuelle à la fin de la séance.
+**Note :** Merci de bien éteindre la machine virtuelle à la fin de la séance.
 
 ### Accès SSH
 
@@ -163,7 +166,8 @@ en français existe paraît-il ;-)
 
 Il existe également un [tutoriel
 interactif](http://try.github.com/levels/1/challenges/1) de 15 minutes pour
-vous familiariser avec `git`.
+vous familiariser avec `git`. Vous pouvez le suivre lors de la première séance
+de TP !
 
 Les commandes principales pour débuter sont :
 
@@ -179,7 +183,7 @@ En image:
 
 ![](../images/git.png)
 
-Vous êtes invité à utiliser `git` pour maintenir la cohérence entre votre
+Vous êtes invités à utiliser `git` pour maintenir la cohérence entre votre
 environnement personnel et celui de l'IUT.
 
 Vous pouvez héberger vos dépôts publiquement sur [github.com](http://github.com)
@@ -209,7 +213,7 @@ Voici quelques commandes de bases :
 * `p` : coller
 
 Un [guide plus complet](http://www.worldtimzone.com/res/vi.html) est disponible
-mais le mieux reste de faire le tutoriel, pour cela taper `vimtutor` dans un
+mais le mieux reste de faire le tutoriel. Pour cela ,taper `vimtutor` dans un
 terminal.
 
 

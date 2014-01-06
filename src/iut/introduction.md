@@ -211,3 +211,8 @@ Voici quelques commandes de bases :
 Un [guide plus complet](http://www.worldtimzone.com/res/vi.html) est disponible
 mais le mieux reste de faire le tutoriel, pour cela taper `vimtutor` dans un
 terminal.
+
+
+---
+
+You can jump to: [Practical #1](1.md).

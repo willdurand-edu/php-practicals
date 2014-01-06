@@ -6,11 +6,11 @@ les sujets de TPs sont écrits en anglais.
 
 * [La Machine Virtuelle](#la-machine-virtuelle)
   * [Installation](#installation)
-  * [Démarrage](#demarrage)
-  * [Arrêt](#arret)
-  * [Accès SSH](#acces-ssh)
-  * [Dossiers Partagés](#dossiers-partages)
-  * [Problèmes Rencontrés](#problemes-rencontres)
+  * [Démarrage](#d%C3%A9marrage)
+  * [Arrêt](#arr%C3%AAt)
+  * [Accès SSH](#acc%C3%A8s-ssh)
+  * [Dossiers Partagés](#dossiers-partag%C3%A9s)
+  * [Problèmes Rencontrés](#probl%C3%A8mes-rencontr%C3%A9s)
 * [Guide de survie avec Git](#guide-de-survie-avec-git)
 * [Guide de survie avec `vi`](#guide-de-survie-avec-vi)
 

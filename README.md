@@ -13,6 +13,10 @@ PHP Practicals
 * [Practical Work #2 - Part 1](src/iut/2-1.md)
 * [Practical Work #2 - Part 2](src/iut/2-2.md)
 
+#### Practical Work #3
+
+* [Practical Work #3](src/iut/3.md)
+
 
 License
 -------

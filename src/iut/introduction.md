@@ -219,4 +219,4 @@ terminal.
 
 ---
 
-You can jump to: [Practical #1](1.md).
+You can jump to: [Practical Work #1](1.md).

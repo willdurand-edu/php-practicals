@@ -3,15 +3,15 @@ PHP Practicals
 
 ### IUT
 
-#### Practical #1
+#### Practical Work #1
 
 * [Introduction](src/iut/introduction.md)
-* [Practical #1](src/iut/1.md)
+* [Practical Work #1](src/iut/1.md)
 
-#### Practical #2
+#### Practical Work #2
 
-* [Practical #2 - Part 1](src/iut/2-1.md)
-* [Practical #2 - Part 2](src/iut/2-2.md)
+* [Practical Work #2 - Part 1](src/iut/2-1.md)
+* [Practical Work #2 - Part 2](src/iut/2-2.md)
 
 
 License

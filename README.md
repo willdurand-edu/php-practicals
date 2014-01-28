@@ -21,6 +21,12 @@ PHP Practicals
 
 * [Practical Work #4](src/iut/4.md)
 
+### ISIMA
+
+#### Practical Work #1
+
+* [Practical Work #1](src/isima/1.md)
+
 
 License
 -------

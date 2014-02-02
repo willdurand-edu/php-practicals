@@ -21,6 +21,10 @@ PHP Practicals
 
 * [Practical Work #4](src/iut/4.md)
 
+#### Practical Work #5
+
+* [Practical Work #5](src/iut/5.md)
+
 ### ISIMA
 
 #### Practical Work #1

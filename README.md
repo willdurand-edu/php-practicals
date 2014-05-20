@@ -33,6 +33,10 @@ PHP Practicals
 
 * [Practical Work #7](src/iut/7.md)
 
+#### Practical Work #8, #9, #10, and #11
+
+* [Your TODO List!](src/iut/8.md)
+
 ### ISIMA
 
 #### Practical Work #1

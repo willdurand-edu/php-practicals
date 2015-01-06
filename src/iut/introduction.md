@@ -64,7 +64,7 @@ Vous pouvez ajouter cette ligne à votre fichier `.bashrc`.
 
 Maintenant, récupérez la configuration de la machine virtuelle :
 
-    $ git clone git://github.com/licpro/php-vm.git $DOCROOT
+    $ git clone git://github.com/willdurand-edu/php-vm.git $DOCROOT
     $ cd $DOCROOT
 
 En listant le répertoire, vous devez avoir une sortie similaire à celle-ci :

@@ -45,7 +45,6 @@ PHP Practicals
 
 #### Practical Work #2, #3, and #4
 
-* [Hotspot Map](src/isima/2.md)
 
 
 License

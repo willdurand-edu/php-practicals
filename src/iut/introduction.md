@@ -52,13 +52,13 @@ les ports `81` et `82` de la machine virtuelle.
 ### Installation
 
 Vous allez installer la configuration de Vagrant dans le répertoire
-`/usr/local/licphp/workspace/vm-$USER`.
+`/home/disques/$USER/php-vm`.
 
 Dans la suite du document, nous utiliserons `DOCROOT` pour parler de ce chemin.
 
 Vous êtes invité à définir une variable d'environnement :
 
-    $ export DOCROOT="/usr/local/licphp/workspace/vm-$USER"
+    $ export DOCROOT="/home/disques/$USER/php-vm"
 
 Vous pouvez ajouter cette ligne à votre fichier `.bashrc`.
 

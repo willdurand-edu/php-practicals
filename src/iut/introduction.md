@@ -76,14 +76,11 @@ En listant le répertoire, vous devez avoir une sortie similaire à celle-ci :
     drwxr-xr-x   9 william  staff   306B  4 jan 16:17 ../
     drwxr-xr-x  16 william  staff   544B  6 jan 09:35 .git/
     -rw-r--r--   1 william  staff    20B  4 jan 14:55 .gitignore
-    drwxr-xr-x   3 william  staff   102B  6 jan 15:41 .vagrant/
-    -rw-r--r--   1 william  staff   2,1K  4 jan 16:11 README.md
-    -rw-r--r--   1 william  staff   1,7K  6 jan 02:01 Vagrantfile
-    drwxr-xr-x   3 william  staff   102B  1 jan 19:18 files/
     -rw-r--r--   1 william  staff   111B  1 jan 19:18 hiera.yaml
     drwxr-xr-x   7 william  staff   238B  6 jan 15:49 projects/
-    drwxr-xr-x   5 william  staff   170B  1 jan 19:18 puppet/
-    drwxr-xr-x   7 william  staff   238B  1 jan 19:18 shell/
+    drwxr-xr-x   5 william  staff   170B  1 jan 19:18 puphpet/
+    -rw-r--r--   1 william  staff   2,1K  4 jan 16:11 README.md
+    -rw-r--r--   1 william  staff   1,7K  6 jan 02:01 Vagrantfile
 
 La configuration est située dans le fichier `Vagrantfile` et la recette
 d'installation du serveur est située dans le dossier `puppet/manifests/`.

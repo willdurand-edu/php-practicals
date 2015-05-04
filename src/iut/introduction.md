@@ -83,7 +83,7 @@ En listant le répertoire, vous devez avoir une sortie similaire à celle-ci :
     -rw-r--r--   1 william  staff   1,7K  6 jan 02:01 Vagrantfile
 
 La configuration est située dans le fichier `Vagrantfile` et la recette
-d'installation du serveur est située dans le dossier `puppet/manifests/`.
+d'installation du serveur est située dans le dossier `puphpet/`.
 
 Pour terminer l'installation de la machine virtuelle, lancer la commande
 suivante :

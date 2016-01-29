@@ -45,7 +45,7 @@ PHP Practicals
 
 #### Practical Work #2, #3, and #4
 
-* [The RSS Reader](src/isima/2.md)
+* [Read It Later](src/isima/2.md)
 
 License
 -------
